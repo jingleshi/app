@@ -1,0 +1,192 @@
+<!doctype html>
+<html>
+<head>
+    <title>A Bookstore</title>
+
+    <meta charset="utf-8">
+    <meta name="description" content="A bookstore template of course!">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!--
+    normalize-and-reset.css.css is a basic CSS reset; useful for starting from ground zero.
+        always include this first.
+    -->
+    <link rel="stylesheet" href="css/main-body.css">
+
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/layout.css">
+    <link rel="stylesheet" href="css/home.css">
+    <link rel="stylesheet" href="css/sizes.css">
+    <link rel="stylesheet" href="css/items.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- for visual debugging, include this (or just comment it out); do note it messes with the box-sizing -->
+    <!--<link rel="stylesheet" href="css/debuggin.css">-->
+</head>
+
+<body class="home">
+    <!-- top-level container for everything on the page -->
+    <main>
+        <!-- you could extract this <header>...</header> as an included file, so it can be common across all pages -->
+        <header>
+            <div class="topnav">
+                <a class="active" href="index.html">Home</a>
+                <a href="#about">About</a>
+                <a href="#contact">Contact</a>
+                <div class="search-container">
+                    <form>
+                        <input type="text" placeholder="Search.." name="search">
+                        <button type="submit"><i class="fa fa-search"></i></button>
+                    </form>
+                </div>
+            </div>
+        </header>
+
+        <section class="bodyContent">
+            <div class="row">
+                <div class="column">
+                    <div class="content">
+                        <a href ="content1.html"><img src="images/DogFriendlyCafe1.jpg" style="width:100%"></a>
+                        <h3>The title of This Content</h3>
+                        <div class="actionButtons">
+                            <button class="name">Name</button>
+                            <button class="location"><i class="fa fa-map-marker"></i>5 miles</button>
+                        </div>
+                    </div>
+                    <div class="content">
+                        <img src="images/HipRestaurant.jpg" style="width:100%">
+                        <h3>The title of This Content</h3>
+                        <div class="actionButtons">
+                            <button class="name">Name</button>
+                            <button class="location"><i class="fa fa-map-marker"></i>5 miles</button>
+                        </div>
+                    </div>
+                    <div class="content">
+                        <img src="images/DogFriendlyCafe2.jpg" style="width:100%">
+                        <h3>The title of This Content</h3>
+                        <div class="actionButtons">
+                            <button class="name">Name</button>
+                            <button class="location"><i class="fa fa-map-marker"></i>5 miles</button>
+                        </div>
+                    </div>
+                    <div class="content">
+                        <img src="images/HipRestaurant2.jpg" style="width:100%">
+                        <h3>The title of This Content</h3>
+                        <div class="actionButtons">
+                            <button class="name">Name</button>
+                            <button class="location"><i class="fa fa-map-marker"></i>5 miles</button>
+                        </div>
+                    </div>
+                    <div class="content">
+                        <img src="images/Seafood1.jpg" style="width:100%">
+                        <h3>The title of This Content</h3>
+                        <div class="actionButtons">
+                            <button class="name">Name</button>
+                            <button class="location"><i class="fa fa-map-marker"></i>5 miles</button>
+                        </div>
+                    </div>
+                    <div class="content">
+                        <img src="images/SketchClass1.jpg" style="width:100%">
+                        <h3>The title of This Content</h3>
+                        <div class="actionButtons">
+                            <button class="name">Name</button>
+                            <button class="location"><i class="fa fa-map-marker"></i>5 miles</button>
+                        </div>
+                    </div>
+                    <div class="content">
+                        <img src="images/JapaneseRestaurant1.jpg" style="width:100%">
+                        <h3>The title of This Content</h3>
+                        <div class="actionButtons">
+                            <button class="name">Name</button>
+                            <button class="location"><i class="fa fa-map-marker"></i>5 miles</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="column">
+                    <div class="content">
+                        <img src="images/HipRestaurant2.jpg" style="width:100%">
+                        <h3>The title of This Content</h3>
+                        <div class="actionButtons">
+                            <button class="name">Name</button>
+                            <button class="location"><i class="fa fa-map-marker"></i>5 miles</button>
+                        </div>
+                    </div>
+                    <div class="content">
+                        <img src="images/HipRestaurant3.jpg" style="width:100%">
+                        <h3>The title of This Content</h3>
+                        <div class="actionButtons">
+                            <button class="name">Name</button>
+                            <button class="location"><i class="fa fa-map-marker"></i>5 miles</button>
+                        </div>
+                    </div>
+                    <div class="content">
+                        <img src="images/DogFriendlyCafe3.jpg" style="width:100%">
+                        <h3>The title of This Content</h3>
+                        <div class="actionButtons">
+                            <button class="name">Name</button>
+                            <button class="location"><i class="fa fa-map-marker"></i>5 miles</button>
+                        </div>
+                    </div>
+                    <div class="content">
+                        <img src="images/Seafood2.jpg" style="width:100%">
+                        <h3>The title of This Content</h3>
+                        <div class="actionButtons">
+                            <button class="name">Name</button>
+                            <button class="location"><i class="fa fa-map-marker"></i>5 miles</button>
+                        </div>
+                    </div>
+                    <div class="content">
+                        <img src="images/JapaneseRestaurant2.jpg" style="width:100%">
+                        <h3>The title of This Content</h3>
+                        <div class="actionButtons">
+                            <button class="name">Name</button>
+                            <button class="location"><i class="fa fa-map-marker"></i>5 miles</button>
+                        </div>
+                    </div>
+                    <div class="content">
+                        <img src="images/SketchClass2.jpg" style="width:100%">
+                        <h3>The title of This Content</h3>
+                        <div class="actionButtons">
+                            <button class="name">Name</button>
+                            <button class="location"><i class="fa fa-map-marker"></i>5 miles</button>
+                        </div>
+                    </div>
+                    <div class="content">
+                        <img src="images/JapaneseRestaurant3.jpg" style="width:100%">
+                        <h3>The title of This Content</h3>
+                        <div class="actionButtons">
+                            <button class="name">Name</button>
+                            <button class="location"><i class="fa fa-map-marker"></i>5 miles</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+        <!-- again, <footer> eligible for extraction to an included file -->
+<!--        <footer>-->
+<!--            <div class="flexItem">-->
+<!--                <ul class="horizontal">-->
+<!--                    <li><a href="#">Contact Us</a></li>-->
+<!--                    <li><a href="#">Directions</a></li>-->
+<!--                    <li><a href="#">Privacy</a></li>-->
+<!--                </ul>-->
+<!--            </div>-->
+
+<!--            <div class="flexItem">-->
+<!--                <ul class="horizontal">-->
+<!--                    <li><a href="#"><img src="images/icons/facebook.png" width="32" height="32"></a></li>-->
+<!--                    <li><a href="#"><img src="images/icons/twitter.png" width="32" height="32"></a></li>-->
+<!--                    <li><a href="#"><img src="images/icons/instagram.png" width="32" height="32"></a></li>-->
+<!--                </ul>-->
+<!--            </div>-->
+
+<!--            <div class="flexItem">-->
+<!--                &copy; 2017, A Bookstore-->
+<!--            </div>-->
+<!--        </footer>-->
+    </main>
+</body>
+</html>

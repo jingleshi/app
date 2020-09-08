@@ -1,0 +1,49 @@
+.actionButtons{
+    position: relative;
+    bottom: 0px;
+
+}
+.actionButtons button {
+    background-color: #fb4f14;
+    border: 1px solid #ffffff;
+    color: white;
+    padding: 10px 24px;
+    cursor: pointer;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-content: stretch;
+    align-items: flex-start;
+    border-radius: 30px;
+    /*align-items: center;*/
+
+}
+
+/* Clear floats (clearfix hack) */
+.actionButtons:after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.actionButtons button:not(:last-child) {
+    border-right: none; /* Prevent double borders */
+}
+
+/* Add a background color on hover */
+.actionButtons button:hover {
+    background-color: #3e8e41;
+}
+
+.actionButtons .name {
+    float: left;
+}
+
+.actionButtons .location {
+    float: right;
+    color: white;
+}
+
+.actionButtons .location i {
+    padding-right: 10px;
+}

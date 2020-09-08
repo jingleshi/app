@@ -1,0 +1,46 @@
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 800px;
+    margin: auto;
+    font-family: arial;
+}
+
+.card .follow {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+}
+
+/*.card button:hover, a:hover {*/
+/*    opacity: 0.7;*/
+/*}*/
+
+.card .actionButtons {
+    position: relative;
+    bottom: 0px;
+    padding: 20px 30px;
+}
+
+.card h1, h3 {
+    margin: 0;
+    display: inline-block;
+}
+
+.card .body{
+    padding:2px 30px;
+}
+
+.card .tags{
+    padding:2px 30px;
+}
+
+.card .actionButtons i{
+    text-align: center;
+}

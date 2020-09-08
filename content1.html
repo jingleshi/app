@@ -1,0 +1,136 @@
+<!doctype html>
+<html>
+<head>
+    <title>A Bookstore</title>
+
+    <meta charset="utf-8">
+    <meta name="description" content="A bookstore template of course!">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!--
+    normalize-and-reset.css.css is a basic CSS reset; useful for starting from ground zero.
+        always include this first.
+    -->
+    <link rel="stylesheet" href="css/main-body.css">
+
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/layout.css">
+    <link rel="stylesheet" href="css/commentBox.css">
+    <link rel="stylesheet" href="css/content.css">
+    <link rel="stylesheet" href="css/items.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
+
+    <!-- for visual debugging, include this (or just comment it out); do note it messes with the box-sizing -->
+    <!--<link rel="stylesheet" href="css/debuggin.css">-->
+</head>
+
+<body class="home">
+<!-- top-level container for everything on the page -->
+<main>
+    <!-- you could extract this <header>...</header> as an included file, so it can be common across all pages -->
+    <header>
+        <div class="topnav">
+            <a class="active" href="index.html">Home</a>
+            <a href="#about">About</a>
+            <a href="#contact">Contact</a>
+            <div class="search-container">
+                <form action="/action_page.php">
+                    <input type="text" placeholder="Search.." name="search">
+                    <button type="submit"><i class="fa fa-search"></i></button>
+                </form>
+            </div>
+        </div>
+    </header>
+
+    <section class="bodyContent">
+        <div class="card">
+            <img src="images/DogFriendlyCafe1.jpg" alt="test" style="width:100%">
+            <div class="actionButtons">
+                <h1>Title of this content</h1>
+                <button class="location"><i class="fa fa-map-marker"></i>5 miles</button>
+            </div>
+            <div class="body">
+                <p>Some text about this activity</p>
+                <p>abother line</p>
+            </div>
+
+            <div class="tags">
+                <p>#tag1 #tag2</p>
+            </div>
+            <div class="actionButtons">
+                <h3>09-07-2020</h3>
+                <button class="location"><i class="fa fa-bookmark-o"></i></button>
+                <button class="location"><i class="fa fa-heart-o"></i></button>
+            </div>
+
+            <div class="detailBox">
+                <div class="titleBox">
+                    <label>Comments</label>
+                    <button type="button" class="close" aria-hidden="true">&times;</button>
+                </div>
+
+                <div class="actionBox">
+                    <ul class="commentList">
+                        <li>
+                            <div class="commenterImage">
+                                <img src="http://placekitten.com/50/50" />
+                            </div>
+                            <div class="commentText">
+                                <p class="">Hello this is a test comment.</p> <span class="date sub-text">on 09-08-2020, 2020</span>
+
+                            </div>
+                        </li>
+                        <li>
+                            <div class="commenterImage">
+                                <img src="http://placekitten.com/45/45" />
+                            </div>
+                            <div class="commentText">
+                                <p class="">Hello this is a test comment and this comment is particularly very long and it goes on and on and on.</p> <span class="date sub-text">on 09-08-2020, 2020</span>
+
+                            </div>
+                        </li>
+                        <li>
+                            <div class="commenterImage">
+                                <img src="http://placekitten.com/40/40" />
+                            </div>
+                            <div class="commentText">
+                                <p class="">Hello this is a test comment.</p> <span class="date sub-text">on 09-08-2020, 2020</span>
+
+                            </div>
+                        </li>
+                    </ul>
+                    <form class="form-inline" role="form">
+                        <div class="form-group">
+                            <input class="form-control" type="text" placeholder="Your comments" />
+                        </div>
+                        <div class="form-group">
+                            <button class="btn btn-default">Add</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+
+            <button class="follow">Follow</button>
+        </div>
+
+    </section>
+
+
+    <footer>
+        <div class="row">
+            <div style="margin: 24px 0;">
+                <a href="#"><i class="fa fa-dribbble"></i></a>
+                <a href="#"><i class="fa fa-twitter"></i></a>
+                <a href="#"><i class="fa fa-linkedin"></i></a>
+                <a href="#"><i class="fa fa-facebook"></i></a>
+            </div>
+<!--            <div class="copy-right">-->
+<!--                &copy; 2020-->
+<!--            </div>-->
+        </div>
+    </footer>
+</main>
+</body>
+</html>

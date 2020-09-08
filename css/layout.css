@@ -1,0 +1,36 @@
+
+/**
+    This is where we define the main layout elements of the pages. Divided functionally by commonality or page class.
+ */
+
+
+/*
+    A simple two-column stretched layout for the header and footer, positioning the items at start/end points of the container.
+
+    Bonus exercise: refactor this so we don't duplicate selectors (I've left things slightly redundant for clarity)
+
+    Result:
+
+     <==== flexy width ====>
+    |-----------------------|
+    ||---|             |---||
+    ||   |             |   ||
+    ||---|             |---||
+    |-----------------------|
+ */
+main {
+    /* unset max-width to get full-page "liquidity" */
+    max-width: 150em;
+    margin: 0 auto 0 auto;
+    padding: 0 1em;
+}
+
+header {
+    min-height: 5em;
+    padding: 1em 0;
+}
+
+footer {
+    min-height: 1em;
+    padding: 1em 0;
+}
